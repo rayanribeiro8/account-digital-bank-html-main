@@ -1,0 +1,90 @@
+/* app.css */
+
+/* Import Font */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+/* Base Styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Plus Jakarta Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+/* Flexbox Utilities */
+.flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+/* Layout Containers */
+main {
+	height: 100vh;
+	display: flex;
+}
+
+.container {
+	width: 100%;
+	background-color: #f5f5f5;
+	padding: 64px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-light {
+	background-color: #ffffff;
+}
+
+/* Typography */
+.h1 {
+	font-size: 40px;
+	font-weight: 800;
+	margin-bottom: 24px;
+}
+
+.subtitle {
+	font-size: 16px;
+	font-weight: 300;
+	color: #868383;
+	line-height: 200%;
+}
+
+label {
+	color: #868383;
+	font-size: 14px;
+}
+
+.label-strong {
+	color: #363434;
+}
+
+.label-complete {
+	color: #04aa6d;
+	font-weight: bold;
+}
+
+/* Button Styles */
+.btn-primary {
+	background-color: #820ad1;
+	border-radius: 100px;
+	border: none;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 16px 0;
+	width: 100%;
+}
+
+.btn-primary[disabled] {
+	background-color: #c8c6c6;
+	color: #868383;
+}
